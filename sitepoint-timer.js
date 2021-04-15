@@ -1,9 +1,9 @@
-var blackwidowrd = '2020-11-06';
-var eternalsrd = '2021-02-12';
-var shangchird = '2021-05-07';
-var strange2rd = '2021-11-05';
-// var spider3rd = '2021-07-16';
-var thor4rd = '2022-02-18';
+var blackwidowrd = '2021-07-09';
+var eternalsrd = '2021-11-05';
+var shangchird = '2021-09-03';
+var strange2rd = '2022-03-25';
+var spider3rd = '2021-12-17';
+var thor4rd = '2022-05-06';
 
 function getRemainingTime(release) {
     var t = Date.parse(release) - Date.parse(new Date());
@@ -37,5 +37,5 @@ startClock('blackwidow', blackwidowrd);
 startClock('eternals', eternalsrd);
 startClock('shangchi', shangchird);
 startClock('strange2', strange2rd);
-// startClock('spider3', spider3rd);
+startClock('spider3', spider3rd);
 startClock('thor4', thor4rd);
